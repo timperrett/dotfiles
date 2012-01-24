@@ -1,0 +1,8 @@
+fontSize         = 14
+fileBrowserGlob  = "{*,.tm_properties,.htaccess}"
+showInvisibles   = true
+softTabs         = true
+tabSize          = 2
+
+[ *.txt ]
+softWrap         = true~

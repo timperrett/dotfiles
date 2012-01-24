@@ -1,0 +1,5 @@
+[user]
+	name = Timothy Perrett
+	email = timothy@getintheloop.eu
+[merge]
+  tool = opendiff
