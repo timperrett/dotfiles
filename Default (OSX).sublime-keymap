@@ -1,0 +1,17 @@
+[
+       // Make it act a bit more like TextMate.
+       { "keys": ["super+shift+t"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
+       { "keys": ["super+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+       { "keys": ["super+ctrl+t"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+       { "keys": ["ctrl+w"], "command": "find_under_expand" },
+       { "keys": ["ctrl+shift+j"], "command": "join_lines" },
+       { "keys": ["ctrl+shift+d"], "command": "duplicate_line" },
+
+       { "keys": ["shift+escape"], "command": "alternative_autocomplete", "args": {"cycle": "previous"}, "context":
+               [
+               { "key": "num_selections", "operator": "equal", "operand": 1 },
+               { "key": "overlay_visible", "operator": "equal", "operand": false },
+               { "key": "panel_visible", "operator": "equal", "operand": false }
+               ]
+       }
+]
