@@ -1,4 +1,6 @@
 alias ll="ls -lahG"
+export LSCOLORS=DxBxhxDxcxhxhxhxhxcxcx
+
 source /usr/local/Cellar/git/1.7.3.1/etc/bash_completion.d/git-completion.bash
 
 PS1='\[\e[0;30m\]$(__git_ps1 "(%s) ")\[\e[0;35m\]\w\n\[\e[1;34m\]λ \[\e[0m\]'
