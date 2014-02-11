@@ -1,7 +1,11 @@
 {
-  "caret_style": "blink",
+	"caret_style": "blink",
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"font_size": 17.0,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
 	"tab_size": 2,
 	"theme": "Soda Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
