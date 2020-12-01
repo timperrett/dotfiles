@@ -1,7 +1,8 @@
 {
 	"always_show_minimap_viewport": true,
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/Materialize/schemes/Material Monokai Soda.tmTheme",
+	"caret_style": "blink",
+	"color_scheme": "Packages/Material Monokai/MaterialMonokaiDark.tmTheme",
 	"font_face": "Droid Sans Mono Regular",
 	"font_options":
 	[
@@ -22,7 +23,6 @@
 	"overlay_scroll_bars": "enabled",
 	"scroll_past_end": true,
 	"tab_size": 2,
-	"theme": "Material-Theme-Darker.sublime-theme"
-	"translate_tabs_to_spaces": true,
-	"caret_style": "blink"
+	"theme": "Material-Theme-Darker.sublime-theme",
+	"translate_tabs_to_spaces": true
 }
