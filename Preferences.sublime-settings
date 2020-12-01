@@ -22,7 +22,7 @@
 	"overlay_scroll_bars": "enabled",
 	"scroll_past_end": true,
 	"tab_size": 2,
-	"theme": "Material Brogrammer.sublime-theme",
+	"theme": "Material-Theme-Darker.sublime-theme"
 	"translate_tabs_to_spaces": true,
 	"caret_style": "blink"
 }
