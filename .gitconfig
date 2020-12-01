@@ -1,5 +1,12 @@
-[user]
-	name = Timothy Perrett
-	email = timothy@getintheloop.eu
 [merge]
-  tool = opendiff
+	tool = opendiff
+[user]
+	email = hello@timperrett.com
+	name = Timothy Perrett
+[merge "theirs"]
+	driver = cat %B > %A
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[credential]
+	helper = store
+
