@@ -1,0 +1,36 @@
+{
+    "editor.fontSize": 17,
+    "go.useLanguageServer": true,
+    "go.lintOnSave": "package",
+    "go.buildOnSave": "off",
+    "go.formatTool": "gofmt",
+    "go.vetOnSave": "package",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "window.zoomLevel": 0,
+    "terminal.integrated.fontSize": 16,
+    "editor.renderWhitespace": "all",
+    "cSpell.ignoreWords": [
+        "ADTs",
+        "Quadro",
+        "GPU",
+        "Nvidia",
+        "typer",
+        "minikube",
+        "timperrett",
+        "kubernetes",
+        "statsd"
+    ],
+    "cSpell.allowCompoundWords": true,
+    "editor.minimap.enabled": false,
+    "C_Cpp.updateChannel": "Insiders",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "cSpell.userWords": [
+        "wrapperspb"
+    ],
+    "go.testFlags": [
+        "-test.v"
+    ]
+}
