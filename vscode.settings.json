@@ -11,15 +11,35 @@
     "terminal.integrated.fontSize": 16,
     "editor.renderWhitespace": "all",
     "cSpell.ignoreWords": [
+        "lyft",
+        "avsimulation",
         "ADTs",
         "Quadro",
         "GPU",
         "Nvidia",
+        "lyftbags",
+        "xlarge",
         "typer",
         "minikube",
+        "avmetadataproxy",
         "timperrett",
         "kubernetes",
-        "statsd"
+        "unannouncer",
+        "tperrett",
+        "statsd",
+        "apiv",
+        "batchv",
+        "sjob",
+        "metav",
+        "AVSW",
+        "grpc",
+        "protobuf",
+        "klog",
+        "idlcode",
+        "Infof",
+        "Checkin",
+        "ptypes",
+        "gobreaker"
     ],
     "cSpell.allowCompoundWords": true,
     "editor.minimap.enabled": false,
@@ -28,9 +48,30 @@
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "java.configuration.checkProjectSettingsExclusions": false,
     "cSpell.userWords": [
+        "bufconn",
+        "c",
+        "cést",
+        "kustomization",
+        "st",
+        "stretchr",
         "wrapperspb"
     ],
     "go.testFlags": [
         "-test.v"
-    ]
+    ],
+    "go.testTimeout": "90s",
+    "cSpell.maxNumberOfProblems": 10,
+    "cSpell.showStatus": false,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "explorer.confirmDelete": false,
+    "files.watcherExclude": {
+        "**/.bloop": true,
+        "**/.metals": true,
+        "**/.ammonite": true
+    }
 }
