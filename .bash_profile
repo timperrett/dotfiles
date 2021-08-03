@@ -19,6 +19,7 @@ PS1='\[\e[0;32m\]$(__git_ps1 "(%s) ")\[\e[0;35m\]\w\n\[\e[1;34m\]λ \[\e[0m\]'
 export CLICOLOR=1
 export JAVA_OPTS=-Dfile.encoding="UTF-8"
 export EDITOR="/usr/local/bin/nano"
+export BASH_SILENCE_DEPRECATION_WARNING=1
 
 # java
 export M2_HOME=/usr/local/Cellar/maven/3.0/libexec
