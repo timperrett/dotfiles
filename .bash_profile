@@ -51,6 +51,9 @@ export PATH="$HOME/.cargo/bin:$PATH"
 # go
 export GOPATH="$HOME/repositories/go/home"
 export PATH="$GOPATH/bin:$PATH"
+# be sure to install gimme first;
+# curl -sL -o gimme https://raw.githubusercontent.com/travis-ci/gimme/master/gimme
+# eval "$(gimme 1.15 > /dev/null)"
 
 # ops
 export ANSIBLE_HOSTS=/etc/ansible/hosts
