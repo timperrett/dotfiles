@@ -19,7 +19,8 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 export PATH="/usr/local/bin:$PATH"
 
 # git 
-export GIT_HOME="$(dirname $(which git))/$(dirname $(dirname $(readlink $(which git))))"
+export GIT_BINARY=/opt/homebrew/bin/git
+export GIT_HOME="$(dirname $GIT_BINARY)/$(dirname $(dirname $(readlink $GIT_BINARY)))"
 source $GIT_HOME/etc/bash_completion.d/git-completion.bash;
 source $GIT_HOME/etc/bash_completion.d/git-prompt.sh;
 
